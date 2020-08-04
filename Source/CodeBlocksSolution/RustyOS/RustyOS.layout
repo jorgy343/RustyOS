@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../Crt/Intrinsics/floatdidf.c" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="30" />
+	</File>
+	<File name="../../Crt/Intrinsics/moddi3.c" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="23" />
+	</File>
+	<File name="../../Crt/Intrinsics/muldi3.c" open="0" top="0" tabpos="0">
+		<Cursor position="3903" topLine="90" />
+	</File>
+	<File name="../../Crt/Intrinsics/quad.h" open="0" top="0" tabpos="0">
+		<Cursor position="284" topLine="0" />
+	</File>
+	<File name="../../Crt/Intrinsics/umoddi3.c" open="0" top="0" tabpos="0">
+		<Cursor position="1998" topLine="11" />
+	</File>
+	<File name="../../Kernel/Convert.cpp" open="1" top="1" tabpos="3">
+		<Cursor position="1384" topLine="38" />
+	</File>
+	<File name="../../Kernel/main.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1198" topLine="9" />
+	</File>
+</CodeBlocks_layout_file>

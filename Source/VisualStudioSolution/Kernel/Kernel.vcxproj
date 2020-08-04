@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AA0B667B-4825-4B7B-92A2-E8AFC9DEF106}</ProjectGuid>
+    <RootNamespace>Kernel</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Kernel\BitmapPhysicalMemoryManager.cpp" />
+    <ClCompile Include="..\..\Kernel\Console.cpp" />
+    <ClCompile Include="..\..\Kernel\ControlRegister0.cpp" />
+    <ClCompile Include="..\..\Kernel\ControlRegister2.cpp" />
+    <ClCompile Include="..\..\Kernel\ControlRegister3.cpp" />
+    <ClCompile Include="..\..\Kernel\ControlRegister4.cpp" />
+    <ClCompile Include="..\..\Kernel\Convert.cpp" />
+    <ClCompile Include="..\..\Kernel\Cpuid.cpp" />
+    <ClCompile Include="..\..\Kernel\Descriptor.cpp" />
+    <ClCompile Include="..\..\Kernel\FlagsRegister.cpp" />
+    <ClCompile Include="..\..\Kernel\GdtRegister.cpp" />
+    <ClCompile Include="..\..\Kernel\IdtRegister.cpp" />
+    <ClCompile Include="..\..\Kernel\LdtRegister.cpp" />
+    <ClCompile Include="..\..\Kernel\main.cpp" />
+    <ClCompile Include="..\..\Kernel\MemoryMap.cpp" />
+    <ClCompile Include="..\..\Kernel\MemoryMapEntry.cpp" />
+    <ClCompile Include="..\..\Kernel\ModelSpecificRegister.cpp" />
+    <ClCompile Include="..\..\Kernel\PhysicalMemoryManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Kernel\BitmapPhysicalMemoryManager.h" />
+    <ClInclude Include="..\..\Kernel\Bits.h" />
+    <ClInclude Include="..\..\Kernel\Console.h" />
+    <ClInclude Include="..\..\Kernel\ConsoleElement.h" />
+    <ClInclude Include="..\..\Kernel\ConsoleEnums.h" />
+    <ClInclude Include="..\..\Kernel\ControlRegister0.h" />
+    <ClInclude Include="..\..\Kernel\ControlRegister2.h" />
+    <ClInclude Include="..\..\Kernel\ControlRegister3.h" />
+    <ClInclude Include="..\..\Kernel\ControlRegister4.h" />
+    <ClInclude Include="..\..\Kernel\Convert.h" />
+    <ClInclude Include="..\..\Kernel\Cpuid.h" />
+    <ClInclude Include="..\..\Kernel\Descriptor.h" />
+    <ClInclude Include="..\..\Kernel\DescriptorEnums.h" />
+    <ClInclude Include="..\..\Kernel\FlagsRegister.h" />
+    <ClInclude Include="..\..\Kernel\GdtRegister.h" />
+    <ClInclude Include="..\..\Kernel\Global.h" />
+    <ClInclude Include="..\..\Kernel\IdtRegister.h" />
+    <ClInclude Include="..\..\Kernel\LdtRegister.h" />
+    <ClInclude Include="..\..\Kernel\main.h" />
+    <ClInclude Include="..\..\Kernel\MemoryMap.h" />
+    <ClInclude Include="..\..\Kernel\MemoryMapEntry.h" />
+    <ClInclude Include="..\..\Kernel\MemoryMapEntryType.h" />
+    <ClInclude Include="..\..\Kernel\ModelSpecificRegister.h" />
+    <ClInclude Include="..\..\Kernel\PhysicalMemoryManager.h" />
+    <ClInclude Include="..\..\Kernel\Ports.h" />
+    <ClInclude Include="..\..\Kernel\PrintFormattedEnums.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Kernel\Assembly\InstallGdt.asm" />
+    <None Include="..\..\Kernel\Assembly\InstallIdt.asm" />
+    <None Include="..\..\Kernel\Assembly\InstallLdt.asm" />
+    <None Include="..\..\Kernel\Assembly\KernelEntryPoint.asm" />
+    <None Include="..\..\Kernel\Assembly\Ports.asm" />
+    <None Include="..\..\Kernel\Assembly\Registers32.asm" />
+    <None Include="..\..\Kernel\Assembly\Registers64.asm" />
+    <None Include="..\..\Kernel\Console.template.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

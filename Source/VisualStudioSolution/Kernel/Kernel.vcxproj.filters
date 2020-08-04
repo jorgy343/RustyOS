@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Assembly">
+      <UniqueIdentifier>{1eec4cc3-563a-49d6-8fc7-04f7ec6e0c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{5951d4c8-6c8a-434e-b4dd-9f836685bf3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{8fbe1d55-fc4c-4a35-b362-c2f051d0f5fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory">
+      <UniqueIdentifier>{51c744f6-f909-44c9-9d9a-384c757378a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Descriptors">
+      <UniqueIdentifier>{86651a95-1473-43f5-924b-0ee5e9b8c9e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Registers">
+      <UniqueIdentifier>{52be3c63-9462-4cc9-99b5-19b8ba8846b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{a90bc8b2-0b57-4d63-88c7-907ff76b689f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory">
+      <UniqueIdentifier>{5f7456d0-d4ff-4461-8365-da55c257464c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Descriptors">
+      <UniqueIdentifier>{14df9c57-65e3-4741-ac9e-19ac5b3fdf6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Registers">
+      <UniqueIdentifier>{fadcd6bd-9f59-43a8-ad41-f6dadc54ebb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{f998ce16-4ea4-4ff9-a541-bbea2988d7f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Kernel\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\BitmapPhysicalMemoryManager.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\Console.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\ControlRegister0.cpp">
+      <Filter>Source Files\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\ControlRegister4.cpp">
+      <Filter>Source Files\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\ControlRegister2.cpp">
+      <Filter>Source Files\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\ControlRegister3.cpp">
+      <Filter>Source Files\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\MemoryMap.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\MemoryMapEntry.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\PhysicalMemoryManager.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\LdtRegister.cpp">
+      <Filter>Source Files\Descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\IdtRegister.cpp">
+      <Filter>Source Files\Descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\GdtRegister.cpp">
+      <Filter>Source Files\Descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\FlagsRegister.cpp">
+      <Filter>Source Files\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\ModelSpecificRegister.cpp">
+      <Filter>Source Files\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\Convert.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\Cpuid.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\Descriptor.cpp">
+      <Filter>Source Files\Descriptors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Kernel\Bits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\Ports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\Cpuid.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\ConsoleEnums.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\ConsoleElement.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\Console.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\ControlRegister0.h">
+      <Filter>Header Files\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\ControlRegister4.h">
+      <Filter>Header Files\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\ControlRegister2.h">
+      <Filter>Header Files\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\ControlRegister3.h">
+      <Filter>Header Files\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\DescriptorEnums.h">
+      <Filter>Header Files\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\Descriptor.h">
+      <Filter>Header Files\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\MemoryMap.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\MemoryMapEntryType.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\MemoryMapEntry.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\ModelSpecificRegister.h">
+      <Filter>Header Files\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\BitmapPhysicalMemoryManager.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\Convert.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\LdtRegister.h">
+      <Filter>Header Files\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\IdtRegister.h">
+      <Filter>Header Files\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\GdtRegister.h">
+      <Filter>Header Files\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\FlagsRegister.h">
+      <Filter>Header Files\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\PrintFormattedEnums.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Kernel\PhysicalMemoryManager.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Kernel\Assembly\InstallGdt.asm">
+      <Filter>Assembly</Filter>
+    </None>
+    <None Include="..\..\Kernel\Assembly\InstallIdt.asm">
+      <Filter>Assembly</Filter>
+    </None>
+    <None Include="..\..\Kernel\Assembly\InstallLdt.asm">
+      <Filter>Assembly</Filter>
+    </None>
+    <None Include="..\..\Kernel\Assembly\KernelEntryPoint.asm">
+      <Filter>Assembly</Filter>
+    </None>
+    <None Include="..\..\Kernel\Assembly\Ports.asm">
+      <Filter>Assembly</Filter>
+    </None>
+    <None Include="..\..\Kernel\Assembly\Registers32.asm">
+      <Filter>Assembly</Filter>
+    </None>
+    <None Include="..\..\Kernel\Assembly\Registers64.asm">
+      <Filter>Assembly</Filter>
+    </None>
+    <None Include="..\..\Kernel\Console.template.h">
+      <Filter>Header Files\Graphics</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+megs: 64
+
+romimage: file="../../Tools/Windows/Bochs/BIOS-bochs-latest"
+vgaromimage: file="../../Tools/Windows/Bochs/VGABIOS-lgpl-latest"
+
+floppya: 1_44="../../Source/Output/DiskImage.bin", status=inserted
+boot: a
+
+com1: enabled=1, mode=file, dev=Serial1.out
+
+log: "BochsLog.txt"
+
+#debug: action=report
+info: action=report
+error: action=report
+panic: action=ask

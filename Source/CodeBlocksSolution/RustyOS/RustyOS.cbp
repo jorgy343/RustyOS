@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RustyOS" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../IntermediateOutput/RustyOS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../IntermediateOutput/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../IntermediateOutput/RustyOS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../IntermediateOutput/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../Crt/ConstructorDestructor.cpp" />
+		<Unit filename="../../Crt/ConstructorDestructor.h" />
+		<Unit filename="../../Crt/Intrinsics.cpp" />
+		<Unit filename="../../Crt/Intrinsics/adddi3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/anddi3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/ashldi3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/ashrdi3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/cmpdi2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/divdi3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/fixdfdi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/fixsfdi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/fixunsdfdi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/fixunssfdi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/floatdidf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/floatdisf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/floatunsdidf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/iordi3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/lshldi3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/lshrdi3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/moddi3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/muldi3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/negdi2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/notdi2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/qdivrem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/quad.h" />
+		<Unit filename="../../Crt/Intrinsics/subdi3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/ucmpdi2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/udivdi3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/umoddi3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/Intrinsics/xordi3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Crt/PureVirtualFunctions.cpp" />
+		<Unit filename="../../Kernel/BitmapPhysicalMemoryManager.cpp" />
+		<Unit filename="../../Kernel/BitmapPhysicalMemoryManager.h" />
+		<Unit filename="../../Kernel/Bits.h" />
+		<Unit filename="../../Kernel/Console.cpp" />
+		<Unit filename="../../Kernel/Console.h" />
+		<Unit filename="../../Kernel/Console.tpp" />
+		<Unit filename="../../Kernel/ConsoleElement.h" />
+		<Unit filename="../../Kernel/ConsoleEnums.h" />
+		<Unit filename="../../Kernel/ControlRegister0.cpp" />
+		<Unit filename="../../Kernel/ControlRegister0.h" />
+		<Unit filename="../../Kernel/ControlRegister2.cpp" />
+		<Unit filename="../../Kernel/ControlRegister2.h" />
+		<Unit filename="../../Kernel/ControlRegister3.cpp" />
+		<Unit filename="../../Kernel/ControlRegister3.h" />
+		<Unit filename="../../Kernel/ControlRegister4.cpp" />
+		<Unit filename="../../Kernel/ControlRegister4.h" />
+		<Unit filename="../../Kernel/Convert.cpp" />
+		<Unit filename="../../Kernel/Convert.h" />
+		<Unit filename="../../Kernel/Cpuid.cpp" />
+		<Unit filename="../../Kernel/Cpuid.h" />
+		<Unit filename="../../Kernel/Descriptor.cpp" />
+		<Unit filename="../../Kernel/Descriptor.h" />
+		<Unit filename="../../Kernel/DescriptorEnums.h" />
+		<Unit filename="../../Kernel/FlagsRegister.cpp" />
+		<Unit filename="../../Kernel/FlagsRegister.h" />
+		<Unit filename="../../Kernel/GdtRegister.cpp" />
+		<Unit filename="../../Kernel/GdtRegister.h" />
+		<Unit filename="../../Kernel/Global.h" />
+		<Unit filename="../../Kernel/IdtRegister.cpp" />
+		<Unit filename="../../Kernel/IdtRegister.h" />
+		<Unit filename="../../Kernel/LdtRegister.cpp" />
+		<Unit filename="../../Kernel/LdtRegister.h" />
+		<Unit filename="../../Kernel/MemoryMap.cpp" />
+		<Unit filename="../../Kernel/MemoryMap.h" />
+		<Unit filename="../../Kernel/MemoryMapEntry.cpp" />
+		<Unit filename="../../Kernel/MemoryMapEntry.h" />
+		<Unit filename="../../Kernel/MemoryMapEntryType.h" />
+		<Unit filename="../../Kernel/ModelSpecificRegister.cpp" />
+		<Unit filename="../../Kernel/ModelSpecificRegister.h" />
+		<Unit filename="../../Kernel/PhysicalMemoryManager.cpp" />
+		<Unit filename="../../Kernel/PhysicalMemoryManager.h" />
+		<Unit filename="../../Kernel/Ports.h" />
+		<Unit filename="../../Kernel/main.cpp" />
+		<Unit filename="../../Kernel/main.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

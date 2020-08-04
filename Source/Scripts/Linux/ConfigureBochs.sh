@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./configure --enable-idle-hack --enable-a20-pin --enable-x86-64 --enable-smp --enable-long-phy-address --enable-ne2000 --enable-acpi --enable-pci --enable-usb --enable-usb-ohci --enable-pnic --enable-x2apic --enable-configurable-msrs --enable-debugger --enable-disasm --enable-debugger-gui --enable-all-optimizations --enable-instrumentation --enable-raw-serial --enable-vbe --enable-clgd54xx --enable-fpu --enable-vmx --enable-3dnow --enable-monitor-mwait --enable-cdrom --enable-sb16 --enable-x86-debugger --enable-iodebug --enable-xpm --with-x --with-x11 --with-term
